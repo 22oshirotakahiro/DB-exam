@@ -13,7 +13,7 @@ CREATE TABLE student (
     , student_name VARCHAR(50)
     , grade INT
     , hometown VARCHAR(50)
-    ,major_id INT NOT NULLREFERENCES major_id
+    , major_id INT NOT NULL REFERENCES major(major_id)
 );
 
 --4
