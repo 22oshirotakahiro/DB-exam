@@ -20,7 +20,7 @@ CREATE TABLE 店舗 (
     番地 VARCHAR(50),
     備考1 VARCHAR(100),
     電話番号 VARCHAR(20),
-    備考2 VARCHAR(100),
+    備考2 VARCHAR(100)
 );
 
 CREATE TABLE レジ (
@@ -51,10 +51,11 @@ CREATE TABLE 伝票 (
 );
 
 CREATE TABLE 税率 (
-    イートイン可否 INT PRIMARY KEY REFERENCES 伝票(イートイン可否),
-    基礎軽減税率可否 INT PRIMARY KEY REFERENCES 商品(基礎軽減税率可否),
+    イートイン可否 INT,
+    基礎軽減税率可否 INT,
     軽減税率可否 INT,
-    税率 DECIMAL
+    税率 DECIMAL,
+    PRIMARY KEY(イートイン可否, 基礎軽減税率可否)
 );
 
 CREATE TABLE 購入物 (
