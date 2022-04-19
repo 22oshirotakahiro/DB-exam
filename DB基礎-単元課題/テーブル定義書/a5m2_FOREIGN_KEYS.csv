@@ -1,0 +1,8 @@
+﻿CONSTRAINT_CATALOG,CONSTRAINT_SCHEMA,CONSTRAINT_NAME,TABLE_SCHEMA,TABLE_NAME,COLUMNS,CARDINARITY,REFERENCED_TABLE_SCHEMA,REFERENCED_TABLE_NAME,REFERENCED_COLUMNS,REFERENCED_CARDINARITY,CAPTION
+localhost/testdb,,伝票_レジid_fkey,public,伝票,レジid,,public,レジ,レジid,,
+localhost/testdb,,伝票_店舗id_fkey,public,伝票,店舗id,,public,店舗,店舗id,,
+localhost/testdb,,伝票_従業員id_fkey,public,伝票,従業員id,,public,従業員,従業員id,,
+localhost/testdb,,伝票_支払方法id_fkey,public,伝票,支払方法id,,public,支払方法,支払方法id,,
+localhost/testdb,,商品_商品項目id_fkey,public,商品,商品項目id,,public,商品項目,商品項目id,,
+localhost/testdb,,購入物_伝票番号_fkey,public,購入物,伝票番号,,public,伝票,伝票番号,,
+localhost/testdb,,購入物_商品id_fkey,public,購入物,商品id,,public,商品,商品id,,

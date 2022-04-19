@@ -1,0 +1,20 @@
+﻿TABLE_CATALOG,TABLE_SCHEMA,TABLE_NAME,CONSTRAINT_NAME,CONSTRAINT_TYPE,CONSTRAINT_CONTENTS
+localhost/testdb,public,レジ,2200_24662_1_not_null,CHECK,レジid IS NOT NULL
+localhost/testdb,public,レジ,レジ_pkey,PRIMARY KEY,レジid
+localhost/testdb,public,伝票,2200_24677_1_not_null,CHECK,伝票番号 IS NOT NULL
+localhost/testdb,public,伝票,伝票_pkey,PRIMARY KEY,伝票番号
+localhost/testdb,public,商品,2200_24647_1_not_null,CHECK,商品id IS NOT NULL
+localhost/testdb,public,商品,商品_pkey,PRIMARY KEY,商品id
+localhost/testdb,public,商品項目,2200_24642_1_not_null,CHECK,商品項目id IS NOT NULL
+localhost/testdb,public,商品項目,商品項目_pkey,PRIMARY KEY,商品項目id
+localhost/testdb,public,店舗,2200_24657_1_not_null,CHECK,店舗id IS NOT NULL
+localhost/testdb,public,店舗,店舗_pkey,PRIMARY KEY,店舗id
+localhost/testdb,public,従業員,2200_24667_1_not_null,CHECK,従業員id IS NOT NULL
+localhost/testdb,public,従業員,従業員_pkey,PRIMARY KEY,従業員id
+localhost/testdb,public,支払方法,2200_24672_1_not_null,CHECK,支払方法id IS NOT NULL
+localhost/testdb,public,支払方法,支払方法_pkey,PRIMARY KEY,支払方法id
+localhost/testdb,public,税率,2200_24709_1_not_null,CHECK,イートイン可否 IS NOT NULL
+localhost/testdb,public,税率,2200_24709_2_not_null,CHECK,基礎軽減税率可否 IS NOT NULL
+localhost/testdb,public,税率,税率_pkey,PRIMARY KEY,"イートイン可否,基礎軽減税率可否"
+localhost/testdb,public,購入物,2200_24716_1_not_null,CHECK,購入物id IS NOT NULL
+localhost/testdb,public,購入物,購入物_pkey,PRIMARY KEY,購入物id

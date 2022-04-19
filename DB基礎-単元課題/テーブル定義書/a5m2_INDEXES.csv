@@ -1,0 +1,10 @@
+﻿TABLE_CATALOG,TABLE_SCHEMA,TABLE_NAME,INDEX_NAME,COLUMNS,IS_PRIMARY_KEY,UNIQUE,CREATE_OPTION
+localhost/testdb,public,レジ,レジ_pkey,レジid,YES,YES,
+localhost/testdb,public,伝票,伝票_pkey,伝票番号,YES,YES,
+localhost/testdb,public,商品,商品_pkey,商品id,YES,YES,
+localhost/testdb,public,商品項目,商品項目_pkey,商品項目id,YES,YES,
+localhost/testdb,public,店舗,店舗_pkey,店舗id,YES,YES,
+localhost/testdb,public,従業員,従業員_pkey,従業員id,YES,YES,
+localhost/testdb,public,支払方法,支払方法_pkey,支払方法id,YES,YES,
+localhost/testdb,public,税率,税率_pkey,"イートイン可否,基礎軽減税率可否",YES,YES,
+localhost/testdb,public,購入物,購入物_pkey,購入物id,YES,YES,

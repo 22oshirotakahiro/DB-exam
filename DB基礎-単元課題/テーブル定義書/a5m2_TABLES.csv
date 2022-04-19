@@ -1,0 +1,10 @@
+﻿TABLE_CATALOG,TABLE_SCHEMA,TABLE_NAME,LOGICAL_NAME,TABLE_TYPE,DESCRIPTION,TAG
+localhost/testdb,public,レジ,,BASE TABLE,,
+localhost/testdb,public,伝票,,BASE TABLE,,
+localhost/testdb,public,商品,,BASE TABLE,,
+localhost/testdb,public,商品項目,,BASE TABLE,,
+localhost/testdb,public,店舗,,BASE TABLE,,
+localhost/testdb,public,従業員,,BASE TABLE,,
+localhost/testdb,public,支払方法,,BASE TABLE,,
+localhost/testdb,public,税率,,BASE TABLE,,
+localhost/testdb,public,購入物,,BASE TABLE,,
